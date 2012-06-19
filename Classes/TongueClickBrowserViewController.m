@@ -145,6 +145,7 @@
 	// Call the image picker:
 	self.picker = [[UIImagePickerController alloc] init];
 	self.picker.delegate = self;
+    //Hi
 	// Set the image picker source to the camera:
 	self.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
 	self.picker.cameraDevice = UIImagePickerControllerCameraDeviceFront;
